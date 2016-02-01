@@ -15,12 +15,12 @@ def __init__(self, mexp): super().__init__(mexp, { ‘x’: 1, ‘y’: 1, ‘fa
   4. That’s it. :)
 
 Using:
-'''python
+```python
 >>> from ncalc.eval import Ncalc
 >>> e = Ncalc(‘2*factorial(5)’)
 >>> e.eval() 240
 >>> e.expression = ‘1+mod(5, 2)+sin(0)’
 >>> e.eval() 2.0
-'''
+```
 
 P.S. This version can work wrong cause I didn’t test it as it’s necessary.
